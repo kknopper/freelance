@@ -1,0 +1,330 @@
+<?php /* Template Name: Podcast List */ ?>
+<?php get_header() ?>
+<link href="<?php echo get_stylesheet_directory_uri()?>/css/blog.css" rel="stylesheet" media="all">
+
+
+<link href="<?php echo get_stylesheet_directory_uri()?>/css/bootstrap.css" rel="stylesheet" media="all">
+<link href="<?php echo get_stylesheet_directory_uri()?>/css/theme.css" rel="stylesheet" media="all">
+<style>
+                        .post .color1:before{
+                            background-color: #102855;
+                        }
+                        #about-tim-sec1{min-height:400px;}
+
+                    </style>
+
+
+  <style type="text/css" id="wp-custom-css">
+  .image-section h4, .solid-section h4{font-size:18px !important;}
+  a:hover,a:focus {color:#102855;}
+.podcast-body .content-sidebar-wrap .entry-header .featured-image {
+	display: none;
+}
+.podcast-body .content-sidebar-wrap .entry-header .entry-title {
+	display: none;
+}
+.page-id-565 .content-sidebar-wrap .entry-header .featured-image {
+	display: none;
+}
+.podcast-body .site-inner {
+	margin-top: 114px;
+}
+.sec2-inline-button .vc_column-inner {
+	padding-top: 0px !important;
+}
+.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
+	margin: 0px 61px;
+}
+.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline .vc_general {
+	font-size: 18px;
+}
+.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline .vc_general:hover {
+	background: #333333 !important;
+}
+.post-grid-layout-custom .vc_column-inner {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 308px;
+}
+.post-grid-layout-custom .vc_column-inner .wpb_wrapper p {
+	color: #ffffff;
+}
+.vc_row.wpb_row.vc_row-fluid.post-grid-layout-custom.vc_column-gap-15.vc_row-o-content-bottom.vc_row-flex {
+	max-width: 70%;
+	margin: 0 auto;
+	clear: both;
+}
+.post-grid-layout-custom .vc_column-inner .wpb_wrapper h4 {
+	margin-bottom: 0px;
+}
+.post-grid-layout-custom .vc_column-inner .wpb_wrapper .wpb_text_column {
+	margin-bottom: 0px;
+}
+.post-grid-layout-custom .vc_column-inner .wpb_wrapper .wpb_text_column .wpb_wrapper p {
+	line-height: 20px;
+	font-size: 16px;
+}
+.site-header {
+	background: #102855 !important;
+}
+.enews-widget input[type="submit"] {
+	background-color: #102854;
+}
+.enews-widget input[type="submit"] {
+	background-color: #fea500 !important;
+}
+.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+	background-color: #fea500 !important;
+	background-image: none !important;
+}
+
+@media only screen and (max-width: 368px) {
+.page-id-622 .sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
+	margin: 0 7px;
+}
+.page-id-622 .post-grid-layout-custom .vc_column-inner {
+	min-height: 173px;
+}
+.page-id-622 .vc_custom_1524472110676 {
+	margin-right: 0px !important;
+}
+.page-id-622 .vc_btn3-container.vc_btn3-right {
+	text-align: center;
+}
+.page-id-622 .vc_btn3-container.vc_btn3-left {
+	text-align: center;
+}
+.page-id-622 .vc_btn3-container.vc_btn3-inline {
+	text-align: center;
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+div#about-tim-sec1 {
+	background-size: 100%;
+	background-position: center top;
+	min-height: 200px;
+}
+.page-id-622 .post-grid-layout-custom .vc_column-inner {
+	min-height: 190px;
+}
+.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
+	margin: 0 7px;
+}
+.vc_row .wpb_column .vc_column-inner {
+	background-position: center top;
+	background-size: 100%;
+}
+img.video_lightbox_anchor_image {
+	width: 100%;
+}
+}
+.page-id-865 header.entry-header {
+	display: none;
+}
+.page-id-58 header.entry-header {
+	display: none;
+}
+.page-id-1019 header.entry-header {
+	display: none;
+}
+.page-id-1176 header.entry-header {
+	display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+   .podcast-body .site-inner {
+	margin-top: 0px;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+.page-id-865 .site-inner {
+	margin-top: 78px;
+}
+.page-id-1176 .site-inner {
+	margin-top: 74px;
+}
+.home .title-area {
+	/*position: absolute;*/
+	top: 0px;
+	margin-top:-27px;
+}
+.page .title-area {
+	position: absolute;
+	top: -28px;
+}
+.light .title-area {
+	top: -28px;
+}
+html .site-title a {
+	background-position: center center !important;
+	min-height: 137px;
+}
+.page-id-58 .site-inner {
+	margin-top: 74px;
+}
+.page-id-1171 .site-inner {
+	margin-top: 74px;
+}
+.page-id-1019 .site-inner {
+	margin-top: 78px;
+}
+.page-id-58 #about-tim-sec1 .vc_column-inner {
+	min-height: 400px;
+}
+.page-id-58 #about-tim-sec1 .vc_column-inner .wpb_wrapper h1 {
+	font-weight: 700;
+}
+.single-post .site-inner {
+	margin-top: 77px;
+	max-width: 100%;
+}
+.single-post .site-inner .content-sidebar-wrap .entry-content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.single-post .site-inner .content-sidebar-wrap .entry-comments h3 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+}
+#media-library-sec4 .wpb_column .wpb_wrapper h6.vc_custom_heading {
+	font-size: 25px;
+	font-weight: 700;
+	padding: 4em 0em;
+}
+#media-library-sec7 .wpb_column .wpb_wrapper h2.vc_custom_heading {
+	font-family: "proxima_nova_regular", "Helvetica", san-serif;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-bottom: 26px;
+}
+#media-library-sec7 .wpb_column .wpb_wrapper {
+	margin: 5em 0;
+}
+#media-library-sec7 .media-library-sec7-column-left .vc_column-inner {
+	background: #00e7ff1f;
+}
+#media-library-sec9 .wpb_column .vc_column-inner .wpb_wrapper {
+	margin: 4em 0;
+}
+#media-library-sec9 .wpb_column .vc_column-inner .wpb_wrapper h2 {
+	font-weight: 700;
+}
+#media-library-sec9 .wpb_column .vc_column-inner .wpb_wrapper button {
+	font-weight: 600;
+}
+.featured-image img {
+	width: 100%;
+}
+.single-post .site-inner .content-sidebar-wrap .entry-header .entry-title {
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-weight: 700;
+}
+.single-post .site-inner .content-sidebar-wrap .entry-header .entry-meta {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.single-post .site-inner .content-sidebar-wrap .entry-footer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.genesis-nav-menu > .menu-item > a {
+	color: #ffffff !important;
+}
+.footer-widgets {
+	background-color: #102855;
+}
+.site-footer {
+	background-color: #102855;
+}
+.home #text-10 .rightrow {
+	padding: 57px 30px 40px !important;
+}
+img.video_lightbox_anchor_image {
+	width: 100%;
+}
+.wpb_wrapper .hover-text {
+	position: absolute;
+	top: 160px;
+	color: white;
+	left: 34%;
+	font-size: 40px;
+	font-weight: bold;
+	display: none;
+}
+.wpb_wrapper:hover .hover-text {
+	display: block;
+}
+.vc_single_image-wrapper.vc_box_shadow_3d.vc_box_border_grey {
+	margin-bottom: 0px;
+}
+.custom-text1176 {
+	font-weight: bold;
+}
+</style>
+
+  <div id="front-page-10" class="front-page-10" >
+  <div class="solid-section" style="padding:0px 0px">
+  <div class="flexible-widgets widget-area">
+  <div class="wrap">
+
+
+  <section class="section-posts post-list" style="padding:0px">
+        <div class="">
+
+			<div class="seo-excerpt">
+
+				  <?php while ( have_posts() ) : the_post();?>
+					<?php the_content(); ?>
+				 <?php endwhile; ?>
+
+			</div>
+			<div class="row">
+
+
+			    <?php
+				   $args = array(
+						'post_type' => array('podcast_list'),
+						'post_status' => 'publish',
+						'order' => 'DESC',
+						'orderby' => 'ID',
+						'posts_per_page' => -1
+					);
+				   $custom_query =  new WP_Query($args);
+
+				   if ($custom_query->have_posts()):
+
+						while ($custom_query->have_posts()) : $custom_query->the_post();
+				?>
+
+				<div class="col-sm-6 col-md-4">
+					<div class="podcast">
+						<a href="<?php echo get_the_permalink(); ?>">
+							<img width="370" height="425" src="<?php echo get_the_post_thumbnail_url(get_the_ID(),array(1280,448)) ?>" class="attachment-blog-md size-blog-md wp-post-image" alt="">
+							<div class="podcast-content">
+								<em><?php echo get_the_date()?></em>
+
+								<h4 class="podcast-title"><?php echo get_the_title() ?></h4>
+
+								<p><?php the_excerpt()?></p>
+							</div><!-- /.podcast-content -->
+						</a>
+					</div><!-- /.podcast -->
+				</div><!-- /.col col-sm-6 col-md-3 -->
+				<?php endwhile; endif; ?>
+
+			</div><!-- /.row -->
+        </div>
+    </section>
+
+
+
+
+</div></div></div></div>

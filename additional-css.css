@@ -1,0 +1,1016 @@
+.front-page-3 .solid-section ,.front-page-2 .solid-section{padding:0px}
+.podcast-body .content-sidebar-wrap .entry-header .featured-image {
+	display: none;
+}
+.podcast-body .content-sidebar-wrap .entry-header .entry-title {
+	display: none;
+}
+.page-id-565 .content-sidebar-wrap .entry-header .featured-image {
+	display: none;
+}
+.podcast-body .site-inner {
+	margin-top: 77px;
+}
+.sec2-inline-button .vc_column-inner {
+	padding-top: 0px !important;
+}
+.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
+	margin: 0px 61px;
+}
+.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline .vc_general {
+	font-size: 18px;
+}
+.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline .vc_general:hover {
+	background: #333333 !important;
+}
+.post-grid-layout-custom .vc_column-inner {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 308px;
+}
+.post-grid-layout-custom .vc_column-inner .wpb_wrapper p {
+	color: #ffffff;
+}
+.vc_row.wpb_row.vc_row-fluid.post-grid-layout-custom.vc_column-gap-15.vc_row-o-content-bottom.vc_row-flex {
+	max-width: 70%;
+	margin: 0 auto;
+	clear: both;
+}
+.post-grid-layout-custom .vc_column-inner .wpb_wrapper h4 {
+	margin-bottom: 0px;
+}
+.post-grid-layout-custom .vc_column-inner .wpb_wrapper .wpb_text_column {
+	margin-bottom: 0px;
+}
+.post-grid-layout-custom .vc_column-inner .wpb_wrapper .wpb_text_column .wpb_wrapper p {
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.button.button-blue {
+	background: #102854;
+	border: 1px solid #102854;
+	transition: all 0.3s;
+}
+
+.button.button-blue-clear {
+	color: #102854;
+	background-color: rgba(256, 256, 256, 0.8);
+	border: 1px solid #102854;
+	transition: all 0.3s;
+}
+
+/*=============
+   Site Overrides
+===============*/
+#wpadminbar {
+	visibility: hidden !important;
+}
+
+html {
+	margin-top: 0 !important;
+}
+
+* html body {
+	margin-top: 0 !important;
+}
+
+@media only screen and ( max-width: 782px ) {
+	html {
+		margin-top: 0 !important;
+	}
+
+	* html body {
+		margin-top: 0 !important;
+	}
+}
+
+body p {
+	font-weight: 400;
+}
+
+body a:focus {
+	outline: none;
+}
+
+.contact-button a {
+	border-color: #FEA500 !important;
+	background-color: #FEA500 !important;
+	color: #FFF !important;
+	text-transform: uppercase;
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 14px;
+}
+
+
+/*=============
+   Site Header
+===============*/
+.site-header {
+	background: #102855 !important;
+	padding-top: 0px;
+}
+
+.site-header .wrap {
+	padding: 0 35px;
+}
+
+.site-header .wrap .title-area {
+	width: 260px;
+	float: left;
+}
+
+.responsive-menu-icon {
+	position: absolute;
+	height: 24px;
+	top: 28px;
+	right: 25px;
+	margin-bottom: 0;
+}
+
+.responsive-menu-icon:before {
+	color: white;
+}
+
+@media only screen  and (max-width: 1200px) {
+	.site-header .title-area{
+		width: 260px;
+	}
+
+	.site-header .wrap {
+		max-width: 1200px;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	.site-header {
+		position: static;
+	}
+
+	.site-header .wrap .title-area {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.site-header .wrap {
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.genesis-nav-menu a, .site-header.light .genesis-nav-menu a {
+		padding: 30px 15px;
+	}
+
+	.site-header .title-area, .site-header.light .title-area {
+		padding: 15px 0 0;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.site-header .title-area, .site-header.light .title-area {
+		padding: 0;
+	}
+}
+
+.site-header.light {
+	padding-top: 0px;
+}
+
+/* over-rides */
+.admin-bar .site-header {
+	top: 0 !important;
+}
+
+.front-page .site-header {
+	padding-top: 0px;
+}
+
+/*==== Logo ====*/
+.title-area {
+	padding: 0;
+}
+
+.site-header.light .title-area {
+	padding: 0;
+}
+
+.site-title {
+	max-width: 260px;
+	width: 100%;
+	min-height: 60px;
+	padding: 10px 0;
+}
+
+.site-title a {
+	background-position: center center;
+	background-size: contain;
+	min-height: 60px;
+	display: block;
+	color: transparent;
+}
+
+.site-title a:hover, .site-title a:focus {
+	color: transparent;
+}
+
+.front-page .site-header .site-title a, .front-page .site-header .site-title a:hover {
+	color: transparent;
+}
+
+.front-page .site-header.light .site-title a, .front-page .site-header light .site-title a:hover {
+	color: transparent;
+}
+
+
+.enews-widget input[type="submit"] {
+	background-color: #102854;
+}
+.enews-widget input[type="submit"] {
+	background-color: #fea500 !important;
+}
+.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+	background-color: #fea500 !important;
+	background-image:none !important;
+}
+
+/*================================
+			 Home Page
+==================================*/
+
+
+/*========================
+	Widget 1
+==========================*/
+
+
+
+/*========================
+	Widget 2 - Programs && Hire Us Page
+==========================*/
+.front-page-2 .textwidget, .hire-me .textwidget {
+	display: flex;
+	justify-content: center;
+}
+
+.choose_prog {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border: 2px solid #102855;
+	border-radius: 4px;
+	width: 18.5%;
+	padding: 10px;
+}
+
+.choose_prog .p1 {
+	font-size: 16px;
+}
+
+.choose_prog .learn-more-cta {
+	margin-top: auto;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+	.front-page-2 .textwidget, .hire-me .textwidget {
+		flex-wrap: wrap;
+	}
+
+	.front-page-2 .choose_prog, .hire-me .choose_prog {
+		width: 25%;
+		margin: 0 3% 50px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.front-page-2 .choose_prog, .hire-me .choose_prog {
+		width: 100%;
+	}
+}
+
+/*========================
+	Widget 4 - Podcast
+==========================*/
+
+.home .podcast_middle_row figure, .podcast_middle_row img, .podcast_middle_row a {
+	margin: 0 auto;
+	display: block;
+}
+
+.home .podcast_middle_row figure {
+	padding: 30px;
+}
+
+.home .podcast_middle_row figure a:focus {
+	outline: none;
+}
+
+
+/*========================
+	Widget 5 - Signup
+==========================*/
+.home .front-page-5 .textwidget .rightrow {
+	color: #102854;
+}
+
+/*========================
+	Widget 6 - Affiliate
+==========================*/
+
+.home .front-page-6 .wp-image-1538 {
+	max-width: 200px;
+}
+
+/*========================
+	Widget 7 - Quotes
+==========================*/
+.home .front-page-7 .textwidget .italic {
+	font-weight: 400;
+}
+
+.home .front-page-7 .textwidget .s1 {
+	font-weight: 400;
+}
+
+.home .front-page-7 {
+	min-height: 550px;
+}
+
+.home .front-page-7 .quote-author {
+	font-weight: 400;
+}
+
+.home .front-page-7 .quote-author-position {
+	font-weight: bold;
+}
+
+/*========================
+	Widget 10 - Explore
+==========================*/
+.home .front-page-10 {
+	color: #102855;
+	padding-top: 100px;
+}
+
+.home .front-page-10 p {
+	font-weight: 400;
+}
+
+.home .front-page-10 .explore {
+	display: flex;
+	justify-content: center;
+}
+
+.home .front-page-10 .explore .explore-blog, .home .front-page-10 .explore .explore-videos, .home .front-page-10 .explore .explore-podcast {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	max-width: 420px;
+	width: 100%;
+	height: 280px;
+	margin: 10px;
+	transition: transform 0.2s;
+}
+
+.home .front-page-10 .explore .explore-blog:hover, .home .front-page-10 .explore .explore-videos:hover, .home .front-page-10 .explore .explore-podcast:hover {
+	transform: scale(1.06);
+}
+
+.home .front-page-10 .explore .explore-blog {
+	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-1.jpg?id=1232);
+}
+
+.home .front-page-10 .explore .explore-videos {
+	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-2.jpg?id=1235);
+}
+
+.home .front-page-10 .explore .explore-podcast {
+	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-3.jpg?id=1236);
+}
+
+.home .front-page-10 .explore .full-link-block {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding-bottom: 80px;
+}
+
+.home .front-page-10 .explore .full-link-block:hover .button.button-blue-clear {
+	background: #102854;
+	color: #FFF;
+}
+
+@media only screen and (max-width: 800px) {
+	.home .front-page-10 .explore {
+		flex-wrap: wrap;
+	}
+}
+
+
+
+/*========================
+	Widget 11 - Signup
+==========================*/
+.front-page-11 .widget-heading {
+	margin-bottom: 40px;
+	color: #102855;
+}
+
+.front-page-11 sup {
+	font-size: 25px;
+	top: -1em;
+}
+
+/*========================
+			Footer
+==========================*/
+.footer-widgets-1, .footer-widgets-2 {
+	margin: 0;
+	width: 50%;
+}
+
+@media only screen and (max-width: 650px) {
+	.footer-widgets-1, .footer-widgets-2 {
+		margin: 0 auto;
+		padding: 15px 0;
+		width: 100%;
+	}
+}
+
+/*====================
+  Extra Small Mobile
+======================*/
+@media only screen and (max-width: 368px) {
+	.page-id-622 .sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
+		margin: 0 7px;
+	}
+	.page-id-622 .post-grid-layout-custom .vc_column-inner {
+		min-height: 173px;
+	}
+	.page-id-622 .vc_custom_1524472110676 {
+		margin-right: 0px !important;
+	}
+	.page-id-622 .vc_btn3-container.vc_btn3-right {
+		text-align: center;
+	}
+	.page-id-622 .vc_btn3-container.vc_btn3-left {
+		text-align: center;
+	}
+	.page-id-622 .vc_btn3-container.vc_btn3-inline {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+/*=============
+	 Mobile
+===============*/
+ @media only screen and (max-width: 768px) {
+	div#about-tim-sec1 {
+		background-size: 100%;
+		background-position: center top;
+		min-height: 200px;
+	}
+	.page-id-622 .post-grid-layout-custom .vc_column-inner {
+	min-height: 190px;
+	}
+	.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
+	margin: 0 7px;
+	}
+	.vc_row .wpb_column .vc_column-inner {
+		background-position: center top;
+		background-size: 100%;
+	}
+	img.video_lightbox_anchor_image {
+		width: 100%;
+	}
+}
+.page-id-865 header.entry-header {
+	display: none;
+}
+.page-id-58 header.entry-header {
+	display: none;
+}
+.page-id-1019 header.entry-header {
+	display: none;
+}
+.page-id-1176 header.entry-header {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.page-id-865 .site-inner {
+		margin-top:80px;
+	}
+	.page-id-1176 .site-inner {
+		margin-top:80px;
+	}
+	.page-id-58 .site-inner {
+		margin-top:80px;
+	}
+	.page-id-1171 .site-inner {
+		margin-top:80px;
+	}
+	.page-id-1019 .site-inner {
+		margin-top:80px;
+	}
+	.page-id-58 #about-tim-sec1 .vc_column-inner {
+		min-height: 400px;
+	}
+	.page-id-58 #about-tim-sec1 .vc_column-inner .wpb_wrapper h1 {
+		font-weight: 700;
+	}
+	.single-post .site-inner {
+		margin-top:80px;
+		max-width:100%;
+	}
+	.single-post .site-inner .content-sidebar-wrap .entry-content {
+		max-width:1200px;
+		margin:0 auto;
+	}
+	.single-post .site-inner .content-sidebar-wrap .entry-comments h3 {
+		max-width:1200px;
+		margin:0 auto;
+	}
+}
+
+@media only screen and (min-width: 1201px) {
+	.nav-primary .genesis-nav-menu{
+		float:right
+	}
+}
+
+.featured-image img {
+	width: 100%;
+}
+.single-post .site-inner .content-sidebar-wrap .entry-header .entry-title {
+	display:block;
+	max-width:1200px;
+	margin:0 auto;
+	font-weight: 700;
+}
+.single-post .site-inner .content-sidebar-wrap .entry-header .entry-meta {
+	max-width:1200px;
+	margin:0 auto;
+}
+.single-post .site-inner .content-sidebar-wrap .entry-footer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.genesis-nav-menu > .menu-item > a {
+	color: #ffffff !important;
+}
+.footer-widgets {
+	background-color: #102855;
+}
+.site-footer {
+	background-color: #102855;
+}
+.home #text-10 .rightrow{
+	padding: 57px 30px 40px !important;
+	}
+img.video_lightbox_anchor_image {
+	width: 100%;
+}
+.wpb_wrapper .hover-text {
+	position: absolute;
+	top: 160px;
+	color: white;
+	left: 34%;
+	font-size: 40px;
+	font-weight: bold;
+	display: none;
+}
+.wpb_wrapper:hover .hover-text {
+	display: block;
+}
+.vc_single_image-wrapper.vc_box_shadow_3d.vc_box_border_grey {
+	margin-bottom: 0px;
+}
+.custom-text1176 {
+	font-weight:bold;
+}
+
+.home .vc_custom_1531422579249 {
+	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-1.jpg?id=1232) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+.home .vc_custom_1531422603782 {
+	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-2.jpg?id=1235) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+.home .vc_custom_1531323000475 {
+	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-3.jpg?id=1236) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+.home .feature-primary .wpb_column a {
+	padding: 5em 0px;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+.home .feature-primary .wpb_column {color:#fff}
+.home .feature-primary .wpb_column:hover {
+-webkit-transform: scale(1.06);
+	-ms-transform: scale(1.06);
+	-o-transform: scale(1.06);
+	transform: scale(1.06);
+	color: #102855 !important;
+}
+
+/*========================
+	 About Tim Page
+==========================*/
+.about-tim .hero {
+	background-image: url(/wp-content/uploads/2018/08/Tim-1600x1050-12-1.jpg?id=1520);
+	background-position: top;
+	display: flex;
+	height: 600px;
+	width: 100%;
+	justify-content: center;
+}
+
+.about-tim .hero h1 {
+	padding-top: 50px;
+	color: #102855;
+	font-size: 5.4rem;
+	font-weight: 300;
+}
+
+.about-tim .about-tim-quote .vc_column-inner{
+	background-position: center top !important;
+	color: #102855;
+}
+
+.about-tim .about-tim-quote p {
+	font-size: 41px;
+	background-color: rgba(256, 256, 256, 0.65);
+	color: #102855;
+	text-align: center;
+	border-radius: 5px;
+	max-width: 780px;
+	margin: 0 auto;
+}
+
+.about-tim .entry {
+	margin-bottom: 0;
+}
+
+/*========================
+	 Products Page
+==========================*/
+.products .flex-row {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.products .flex-column {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	border: 3px solid #3f3f3f;
+	border-top: 10px solid #3f3f3f;
+
+
+	margin: 0 25px 25px;
+	padding-top: 35px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+
+	max-width: 350px;
+}
+
+
+.products .flex-column .logo {
+	width: 100%;
+	background-position: center center;
+	background-size: contain;
+	margin: 0 0 20px;
+	background-repeat: no-repeat;
+}
+
+.products .flex-column.million-dollar .logo {
+	background-image: url(/wp-content/uploads/2018/12/CMDM-logo-1.png);
+	height: 130px;
+	margin-top: 20px;
+}
+
+.products .flex-column.box-system .logo {
+	background-image: url(/wp-content/uploads/2018/11/TBS-logo.png);
+	height: 185px;
+}
+
+.products .flex-column.productivity-funnel .logo {
+	background-image: url(/wp-content/uploads/2018/12/logo.png);
+	height: 185px;
+}
+
+.products .flex-column.power-of-personal-branding .logo {
+	background-image: url(/wp-content/uploads/2018/11/PPOB-book-cover.jpg);
+	height: 185px;
+}
+
+.products .flex-column h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: auto;
+}
+
+.products .flex-column p {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.products .flex-column .cta {
+	background-color: #fea500;
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 18px 25px;
+	border-radius: 5px;
+	background-image: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
+	background-image: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
+}
+
+.products .flex-column .cta.cta-buy-now {
+	background-color: #102855;
+}
+
+@media only screen and (max-width: 1200px) {
+	.products .flex-column {
+	   margin: 0 10px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.products .flex-row {
+		flex-wrap: wrap;
+	}
+
+	.products .flex-column {
+	   max-width: none;
+	   margin: 25px;
+	}
+}
+
+
+/*========================
+	 Blog Page
+==========================*/
+.blog-home .hero {
+	background-image: url(/wp-content/uploads/2018/11/Tim-Joseph-Retouched-9.jpg);
+	width: 100%;
+	height: 625px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position: center 0%;
+}
+
+.blog-home .front-page-10 {
+	padding-top: 0;
+}
+
+.blog-home .site-inner {
+	margin-top: 72px;
+}
+
+@media only screen and (max-width: 1150px) {
+	.blog-home .site-inner {
+		margin-top: 0;
+	}
+}
+
+/*========================
+	 Blog Articles
+==========================*/
+.blog-page .site-inner {
+	max-width: 1200px;
+	margin: 25px auto 0;
+	padding: 0 25px;
+}
+
+.blog-page .site-inner .article {
+	margin: 0 25px;
+	border-bottom: 1px solid #ddd
+}
+
+.blog-page .article-meta:after {
+	display: none;
+}
+
+.blog-page .article .article-group {
+	display: none;
+}
+
+/*========================
+	 Podcasts Articles
+==========================*/
+.podcast .article-meta:after {
+	display: none;
+}
+
+.podcast .article .article-group {
+	display: none;
+}
+
+/*========================
+	 Podcasts Home
+==========================*/
+
+.podcast-home .podcast-list .styles__progressBar___3pIiH svg rect:nth-child(3) {
+	fill: #102855;
+}
+
+/*========================
+	 Business Development
+==========================*/
+
+.business-dev .headline-quote {
+	position: relative;
+}
+
+.business-dev .headline-quote h2 {
+	text-align: center;
+}
+
+.business-dev .headline-quote .quote-author {
+	left: 75%;
+	transform: translateX(-50%);
+	position: relative;
+	display: inline-block;
+}
+
+.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a {
+	border-color: #102855;
+	background-color: #102855;
+}
+
+.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a:focus, .business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a:hover {
+	background-color: #0636A4;
+}
+
+.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+	background-color: #f8f8f8;
+}
+
+.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab.vc_active>a:hover {
+	background-color: #f8f8f8;
+}
+
+
+/*========================
+	 Coaching
+==========================*/
+
+.coaching .content {
+	float: none;
+}
+
+.coaching .headline-quote {
+	position: relative;
+}
+
+.coaching .headline-quote h2 {
+	text-align: center;
+}
+
+.coaching .headline-quote .quote-author {
+	left: 60%;
+	transform: translateX(-50%);
+	position: relative;
+	display: inline-block;
+}
+
+.coaching .tiers {
+	display: flex;
+	align-content: space-around;
+	flex-direction: row-reverse;
+}
+
+.coaching .tiers h4 {
+	text-align: center;
+	margin: 10px !important;
+	font-size: 24px !important;
+}
+
+.coaching .tiers .platinum, .coaching .tiers .silver, .coaching .tiers .gold {
+	border-radius: 5px;
+	margin: 0 15px;
+	padding: 5px 20px;
+	border: 3px solid #102855;
+}
+
+
+
+/*========================
+		   Sales
+==========================*/
+
+.sales .headline-quote {
+	position: relative;
+}
+
+.sales .headline-quote h2 {
+	text-align: center;
+}
+
+.sales .headline-quote .quote-author {
+	left: 60%;
+	transform: translateX(-50%);
+	position: relative;
+	display: inline-block;
+}
+
+/*========================
+	   Social Media
+==========================*/
+
+.social-media .headline-quote {
+	position: relative;
+}
+
+.social-media .headline-quote h2 {
+	text-align: center;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+	.social-media .headline-quote h2 {
+		max-width: 100%;
+	}
+}
+
+.social-media .headline-quote .quote-author {
+	left: 75%;
+	transform: translateX(-50%);
+	position: relative;
+	display: inline-block;
+}
+
+/*=======================  Visual Composer Custom CSS? */
+.hire-me-body .entry-header .featured-image {
+	display: none;
+}
+.sec-2-center {
+	color: white;
+	text-align: center;
+}
+.entry-header .entry-title {
+	font-size: 36px;
+	font-size: 3.6rem;
+	display: none;
+}
+.hire-me-body .site-inner {
+	margin-top: 77px;
+}
+.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+	color: #FFF;
+	width: 48%;
+	font-size: 18px;
+	padding: 10px 16px;
+	line-height: 1.333333333333;
+	border: none;
+	background-color: #a81f0e;
+}
+
+.wpb_row .vc_column-inner .wpb_wrapper h4 {
+	font-size: 20px;
+	margin: 0px;
+}
+.box-heading {
+	font-size: 16px;
+}
+.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern:hover{
+	width:45%;
+	background-color:#d61411;
+}
