@@ -85,7 +85,7 @@ html {
 	}
 }
 
-body p {
+body p, body ul li {
 	font-weight: 400;
 }
 
@@ -93,22 +93,34 @@ body a:focus {
 	outline: none;
 }
 
-.contact-button a {
+.contact-button {
+	padding: 0;
+}
+
+.contact-button:hover {
+	color: #FEA500;
+}
+
+.contact-button a, .wpforms-submit  {
 	border-color: #FEA500 !important;
+	border-radius: 5px !important;
 	background-color: #FEA500 !important;
 	color: #FFF !important;
-	text-transform: uppercase;
+	text-transform: uppercase !important;
 	font-family: 'Lato';
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 14px !important;
+	padding: 14px 20px;
 }
+
+
 
 
 /*=============
    Site Header
 ===============*/
 .site-header {
-	background: #102855 !important;
+	background: #162454 !important;
 	padding-top: 0px;
 }
 
@@ -161,7 +173,7 @@ body a:focus {
 
 @media only screen and (max-width: 1023px) {
 	.genesis-nav-menu a, .site-header.light .genesis-nav-menu a {
-		padding: 30px 15px;
+		padding: 30px 10px;
 	}
 
 	.site-header .title-area, .site-header.light .title-area {
@@ -242,8 +254,46 @@ body a:focus {
 
 
 /*========================
+	Email
+==========================*/
+
+.tpts-videopromo-name input, .tpts-videopromo-email input, .tpts-videopromo-phone input {
+	font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    letter-spacing: 1.5px !important;
+    margin-bottom: 16px !important;
+    padding: 16px 14px !important;
+	width: 100% !important;
+	border-radius: 3px !important;
+	display: inline-block !important;
+	float: left !important;
+}
+
+.tpts-videopromo-name, .tpts-videopromo-email, .tpts-videopromo-phone {
+	width: 20% !important;
+	display: inline-block !important;
+	margin-right: 10px !important;
+}
+
+.tpts-videopromo h4, .tpts-videopromo p {
+	color: #162454;
+}
+
+.tpts-weekly-reminder {
+	display: block;
+	text-align: center;
+}
+
+.tpts-weekly-reminder .wpforms-field-row, .tpts-weekly-reminder .wpforms-field-medium {
+	margin: 0 auto !important;
+}
+
+/*========================
 	Widget 1
 ==========================*/
+
+
+
 
 
 
@@ -260,7 +310,7 @@ body a:focus {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	border: 2px solid #102855;
+	border: 2px solid #162454;
 	border-radius: 4px;
 	width: 18.5%;
 	padding: 10px;
@@ -302,11 +352,19 @@ body a:focus {
 }
 
 .home .podcast_middle_row figure {
-	padding: 30px;
+	padding: 30px 30px 15px;
 }
 
 .home .podcast_middle_row figure a:focus {
 	outline: none;
+}
+
+.home .podcast_middle_row p {
+	margin: 0;
+}
+
+.home .podcast_middle_row .contact-button {
+	margin-bottom: 15px;
 }
 
 
@@ -352,7 +410,7 @@ body a:focus {
 	Widget 10 - Explore
 ==========================*/
 .home .front-page-10 {
-	color: #102855;
+	color: #162454;
 	padding-top: 100px;
 }
 
@@ -382,15 +440,15 @@ body a:focus {
 }
 
 .home .front-page-10 .explore .explore-blog {
-	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-1.jpg?id=1232);
+	background-image: url(/wp-content/uploads/2018/07/imgpsh_fullsize-1.jpg?id=1232);
 }
 
 .home .front-page-10 .explore .explore-videos {
-	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-2.jpg?id=1235);
+	background-image: url(/wp-content/uploads/2018/12/videos-homepage.jpg);
 }
 
 .home .front-page-10 .explore .explore-podcast {
-	background-image: url(https://thepersontosee.com/wp-content/uploads/2018/07/imgpsh_fullsize-3.jpg?id=1236);
+	background-image: url(/wp-content/uploads/2018/12/podcast-homepage.jpg);
 }
 
 .home .front-page-10 .explore .full-link-block {
@@ -423,7 +481,7 @@ body a:focus {
 ==========================*/
 .front-page-11 .widget-heading {
 	margin-bottom: 40px;
-	color: #102855;
+	color: #162454;
 }
 
 .front-page-11 sup {
@@ -445,6 +503,24 @@ body a:focus {
 		padding: 15px 0;
 		width: 100%;
 	}
+}
+
+.footer-widgets-3 {
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.footer-widgets-3 .widget {
+	margin-bottom: 0;
+}
+
+.footer-widgets .wrap {
+	padding-bottom: 0;
+}
+
+.footer-terms-link {
+	text-decoration: underline;
 }
 
 /*====================
@@ -510,19 +586,25 @@ body a:focus {
 
 @media only screen and (min-width: 768px) {
 	.page-id-865 .site-inner {
-		margin-top:80px;
+		margin-top: 80px;
 	}
 	.page-id-1176 .site-inner {
-		margin-top:80px;
+		margin-top: 80px;
 	}
 	.page-id-58 .site-inner {
-		margin-top:80px;
+		margin-top: 80px;
 	}
 	.page-id-1171 .site-inner {
-		margin-top:80px;
+		margin-top: 80px;
 	}
 	.page-id-1019 .site-inner {
-		margin-top:80px;
+		margin-top: 80px;
+	}
+	.podcast-home .site-inner {
+		margin-top: 80px;
+	}
+	.videos-home .site-inner {
+		margin-top: 80px;
 	}
 	.page-id-58 #about-tim-sec1 .vc_column-inner {
 		min-height: 400px;
@@ -543,6 +625,31 @@ body a:focus {
 		margin:0 auto;
 	}
 }
+
+@media only screen and (max-width: 1150px) {
+	.page-id-865 .site-inner {
+		margin-top: 0;
+	}
+	.page-id-1176 .site-inner {
+		margin-top: 0;
+	}
+	.page-id-58 .site-inner {
+		margin-top: 0;
+	}
+	.page-id-1171 .site-inner {
+		margin-top: 0;
+	}
+	.page-id-1019 .site-inner {
+		margin-top: 0;
+	}
+	.podcast-home .site-inner {
+		margin-top: 0;
+	}
+	.videos-home .site-inner {
+		margin-top: 0;
+	}
+}
+
 
 @media only screen and (min-width: 1201px) {
 	.nav-primary .genesis-nav-menu{
@@ -571,10 +678,10 @@ body a:focus {
 	color: #ffffff !important;
 }
 .footer-widgets {
-	background-color: #102855;
+	background-color: #162454;
 }
 .site-footer {
-	background-color: #102855;
+	background-color: #162454;
 }
 .home #text-10 .rightrow{
 	padding: 57px 30px 40px !important;
@@ -637,39 +744,36 @@ img.video_lightbox_anchor_image {
 	-ms-transform: scale(1.06);
 	-o-transform: scale(1.06);
 	transform: scale(1.06);
-	color: #102855 !important;
+	color: #162454 !important;
 }
 
 /*========================
 	 About Tim Page
 ==========================*/
 .about-tim .hero {
-	background-image: url(/wp-content/uploads/2018/08/Tim-1600x1050-12-1.jpg?id=1520);
-	background-position: top;
+	background-image: url(/wp-content/uploads/2018/12/about-tim-hero.jpg);
+	background-position: center 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
 	display: flex;
-	height: 600px;
+	height: 450px;
 	width: 100%;
 	justify-content: center;
 }
 
-.about-tim .hero h1 {
-	padding-top: 50px;
-	color: #102855;
-	font-size: 5.4rem;
-	font-weight: 300;
-}
-
 .about-tim .about-tim-quote .vc_column-inner{
 	background-position: center top !important;
-	color: #102855;
+	color: #162454;
 }
 
 .about-tim .about-tim-quote p {
 	font-size: 41px;
 	background-color: rgba(256, 256, 256, 0.65);
-	color: #102855;
+	color: #162454;
 	text-align: center;
 	border-radius: 5px;
+	font-weight: 300;
+	padding: 15px;
 	max-width: 780px;
 	margin: 0 auto;
 }
@@ -761,7 +865,7 @@ img.video_lightbox_anchor_image {
 }
 
 .products .flex-column .cta.cta-buy-now {
-	background-color: #102855;
+	background-color: #162454;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -846,9 +950,57 @@ img.video_lightbox_anchor_image {
 	 Podcasts Home
 ==========================*/
 
-.podcast-home .podcast-list .styles__progressBar___3pIiH svg rect:nth-child(3) {
-	fill: #102855;
+
+.podcast-home .podcast-hero {
+	background-image: url(/wp-content/uploads/2018/12/podcast-hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	height: 450px;
+	width: 100%;
 }
+.podcast-home .podcast-list .styles__progressBar___3pIiH svg rect:nth-child(3) {
+	fill: #162454;
+}
+
+.podcast-home .podcast-post .podcast-post-title {
+	font-size: 18px;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    font-weight: 900;
+}
+
+.podcast-home .podcast-post .podcast-post-excerpt {
+	font-size: 16px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/*========================
+	 Videos Home
+==========================*/
+.videos-home .videos-hero {
+	background-image: url(/wp-content/uploads/2018/12/videos-hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	width: 100%;
+	position: relative;
+}
+
+.videos-home .videos-hero .play-video {
+	position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    display: block;
+    text-align: center;
+}
+
 
 /*========================
 	 Business Development
@@ -870,8 +1022,8 @@ img.video_lightbox_anchor_image {
 }
 
 .business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a {
-	border-color: #102855;
-	background-color: #102855;
+	border-color: #162454;
+	background-color: #162454;
 }
 
 .business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a:focus, .business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a:hover {
@@ -920,13 +1072,28 @@ img.video_lightbox_anchor_image {
 	text-align: center;
 	margin: 10px !important;
 	font-size: 24px !important;
+	padding: 5px !important;
+    border-radius: 3px !important;
+    color: white;
+}
+
+.coaching .tiers .platinum h4 {
+	background: #C5C5C5;
+}
+
+.coaching .tiers .gold h4 {
+	background: #D0AD46;
+}
+
+.coaching .tiers .silver h4 {
+	background: #B1B8AF;
 }
 
 .coaching .tiers .platinum, .coaching .tiers .silver, .coaching .tiers .gold {
 	border-radius: 5px;
 	margin: 0 15px;
 	padding: 5px 20px;
-	border: 3px solid #102855;
+	border: 3px solid #162454;
 }
 
 
@@ -975,6 +1142,56 @@ img.video_lightbox_anchor_image {
 	transform: translateX(-50%);
 	position: relative;
 	display: inline-block;
+}
+
+/*========================
+		    Terms
+==========================*/
+.terms {
+	font-family: Arial;
+}
+
+.terms-content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.terms .content h1,
+.terms .content h2,
+.terms .content h3 {
+	text-align: center;
+}
+
+.terms .content h1 {
+	font-weight: 700;
+	margin-top: 50px;
+}
+
+.terms .content h2 {
+	font-weight: bold;
+	margin-top: 50px;
+
+}
+
+.terms .content h3 {
+	margin-top: 40px;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.terms p,
+.terms li {
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.terms .italic {
+	font-style: italic;
+}
+
+.terms .bold {
+	font-weight: bold;
 }
 
 /*=======================  Visual Composer Custom CSS? */
