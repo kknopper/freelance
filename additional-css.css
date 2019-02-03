@@ -1,5 +1,6 @@
 /*
 Site Blue: #102854
+Action Button: #FEA500
 */
 
 .front-page-3 .solid-section ,.front-page-2 .solid-section{padding:0px}
@@ -394,6 +395,10 @@ body a:focus {
 /*========================
 	Widget 7 - Quotes
 ==========================*/
+.home .front-page-7 {
+	background: #F9F9F8;
+}
+
 .home .front-page-7 .textwidget .italic {
 	font-weight: 400;
 }
@@ -801,6 +806,18 @@ img.video_lightbox_anchor_image {
 	margin: 0 auto;
 }
 
+.blog-link {
+	background: #FEA500;
+	border-radius: 4px;
+	color: white;
+	padding: 10px;
+	margin: 0 auto;
+	display: block;
+	max-width: 315px;
+	text-align: center;
+	font-weight: bold;
+}
+
 /*========================
 	 Products Page
 ==========================*/
@@ -872,7 +889,7 @@ img.video_lightbox_anchor_image {
 }
 
 .products .flex-column .cta {
-	background-color: #fea500;
+	background-color: #162454;
 	color: #ffffff;
 	font-size: 16px;
 	margin-bottom: 20px;
@@ -884,7 +901,7 @@ img.video_lightbox_anchor_image {
 }
 
 .products .flex-column .cta.cta-buy-now {
-	background-color: #162454;
+	background-color: #fea500;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -927,6 +944,13 @@ img.video_lightbox_anchor_image {
 }
 
 .blog-home .link-more-grey {
+	color: #fff;
+	background-color: #102854;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.link-more-grey {
 	color: #fff;
 	background-color: #102854;
 	padding: 5px;
@@ -1092,7 +1116,7 @@ img.video_lightbox_anchor_image {
 	text-align: center;
 }
 
-.videos-home .entry-content > div:nth-child(3), .videos-home .entry-content > div:nth-child(4) {
+.videos-home .entry-content > div:nth-child(3) {
 	max-width: 750px;
 	margin: 0 auto;
 }
@@ -1101,6 +1125,11 @@ img.video_lightbox_anchor_image {
 /*========================
 	 Business Development
 ==========================*/
+
+.business-dev .entry-content {
+	max-width: 750px;
+	margin: 0 auto;
+}
 
 .business-dev .headline-quote {
 	position: relative;
@@ -1138,6 +1167,15 @@ img.video_lightbox_anchor_image {
 /*========================
 	 Coaching
 ==========================*/
+.coaching blockquote {
+	max-width: 750px;
+	margin: 40px auto;
+}
+
+.coaching section div.content {
+	max-width: 750px;
+	margin: 0 auto;
+}
 
 .coaching .content {
 	float: none;
@@ -1197,6 +1235,10 @@ img.video_lightbox_anchor_image {
 /*========================
 		   Sales
 ==========================*/
+.sales .entry-content {
+	max-width: 750px;
+	margin: 0 auto;
+}
 
 .sales .headline-quote {
 	position: relative;
@@ -1216,6 +1258,10 @@ img.video_lightbox_anchor_image {
 /*========================
 	   Social Media
 ==========================*/
+.social-media .entry-content {
+	max-width: 750px;
+	margin: 0 auto;
+}
 
 .social-media .headline-quote {
 	position: relative;
@@ -1238,6 +1284,22 @@ img.video_lightbox_anchor_image {
 	transform: translateX(-50%);
 	position: relative;
 	display: inline-block;
+}
+
+/*========================
+	   Contact Us
+==========================*/
+.contact-us .entry-content {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+/*========================
+			Team
+==========================*/
+.team .entry-content {
+	max-width: 750px;
+	margin: 0 auto;
 }
 
 /*========================
