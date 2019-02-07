@@ -1024,8 +1024,14 @@ img.video_lightbox_anchor_image {
 	font-size: 18px;
 	display: inline-block;
 	text-align: left;
-	float: left;
 	font-weight: 900;
+	text-decoration: underline;
+	color: #102854;
+	transition: color 0.3s ease-in-out;
+}
+
+.podcast-home .podcast-post .podcast-post-title:hover {
+	color:#FEA500
 }
 
 .podcast-home .podcast-post .podcast-post-excerpt {
@@ -1350,6 +1356,42 @@ img.video_lightbox_anchor_image {
 
 .terms .bold {
 	font-weight: bold;
+}
+
+/*========================
+		Error 404
+==========================*/
+.error-404 .entry-content {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.error-404 {
+	text-align: center;
+}
+
+.error-404 .error-message {
+	padding-top: 100px;
+}
+
+.error-404 .error-message h1 {
+	font-size: 3em;
+}
+
+.error-404 .error-message h2 {
+	font-size: 1.5em;
+}
+
+.error-404 .cta {
+	border-color: #FEA500 !important;
+	border-radius: 5px !important;
+	background-color: #FEA500 !important;
+	color: #FFF !important;
+	text-transform: uppercase !important;
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 14px !important;
+	padding: 14px 20px;
 }
 
 /*=======================  Visual Composer Custom CSS? */
