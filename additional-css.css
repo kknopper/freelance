@@ -1007,6 +1007,142 @@ img.video_lightbox_anchor_image {
 	display: none;
 }
 
+.single-podcast_list article {
+	text-align: left;
+}
+
+.single-podcast_list article h1 {
+		font-size: 36px;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.single-podcast_list article h4 {
+	font-size: 20px;
+}
+
+.single-podcast_list .post-title {
+	font-size: 36px;
+	color: #102854;
+}
+
+		/*========================
+			Podcasts Articles -- shownotes
+		==========================*/
+
+.single-podcast_list article .shownotes h3 {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #162553;
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+
+.single-podcast_list article .shownotes ul {
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+
+.single-podcast_list article .shownotes li {
+	list-style-type: disc;
+	margin-bottom: 5px;
+}
+
+.single-podcast_list article .shownotes h4 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.single-podcast_list .bio {
+	background: white;
+	padding: 25px 0;
+}
+
+		/*========================
+			Podcasts Articles -- Twitter share
+		==========================*/
+
+.single-podcast_list .twitter-share-tweet {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #f5f8fa;
+	margin-top: 30px;
+}
+
+.single-podcast_list .twitter-share-tweet h3 {
+	background: #59ADEB;
+	color: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: lato;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.single-podcast_list .twitter-share-tweet h4 {
+	background: #f5f8fa;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+.single-podcast_list .twitter-share-tweet div {
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.single-podcast_list .twitter-share-tweet a {
+	cursor: pointer;
+}
+
+.single-podcast_list .twitter-share-tweet .tweet {
+	background: #59ADEB;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.single-podcast_list .twitter-share-tweet .tweet:hover svg {
+	transform: translateX(5px);
+}
+
+.single-podcast_list .twitter-share-tweet svg {
+	max-height: 20px;
+	max-width: 20px;
+	fill: #fff;
+	padding-top: 0px;
+	position: relative;
+	top: 4px;
+	margin-left: 5px;
+	transition: all 0.3s ease-in-out;
+}
+
+		/*========================
+			Podcasts Articles -- Tuning In
+		==========================*/
+
+.single-podcast_list .tuning-in{
+	margin-top: 50px;
+}
+
+.single-podcast_list .tuning-in h2 {
+	font-weight: bold;
+	color: #162553;
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+
+
+
 /*========================
 	 Podcasts Home
 ==========================*/
@@ -1041,6 +1177,13 @@ img.video_lightbox_anchor_image {
 
 .podcast-home .podcast-post .podcast-post-title:hover {
 	color:#FEA500
+}
+
+.podcast-home .view-post {
+	background: #FEA500;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 3px;
 }
 
 .podcast-home .podcast-post .podcast-post-excerpt {

@@ -93,7 +93,9 @@
                                         <a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title() ?></a>
                                     </h4>
 
-                                    <a href="<?php echo get_the_permalink(); ?>" class="link-more link-more-grey">Listen Now</a>
+                                    <p><?php echo get_the_excerpt() ?></p>
+
+                                    <a href="<?php echo get_the_permalink(); ?>" class="link-more view-post">View Post</a>
                                 </div><!-- /.post-content -->
                             </div><!-- /.post -->
                         </div><!-- /.col-sm-3 col-sm-6 -->
