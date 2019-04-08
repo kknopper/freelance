@@ -4,7 +4,7 @@
 <link href="<?php echo get_stylesheet_directory_uri()?>/css/bootstrap.css" rel="stylesheet" media="all">
 <link href="<?php echo get_stylesheet_directory_uri()?>/css/theme.css" rel="stylesheet" media="all">
 
-<main class="content" id="genesis-content">
+<main class="content podcast-home" id="genesis-content">
 	<div class="entry-content">
         <?php while ( have_posts() ) : the_post();?>
             <?php the_content(); ?>

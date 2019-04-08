@@ -1012,7 +1012,7 @@ img.video_lightbox_anchor_image {
 }
 
 .single-podcast_list article h1 {
-		font-size: 36px;
+		font-size: 35px;
     text-transform: capitalize;
     margin-top: 50px;
 }
@@ -1202,8 +1202,8 @@ img.video_lightbox_anchor_image {
 
 .podcast-home .subscribe {
 	font-size: 36px;
-    font-weight: 700;
-    font-family: Lato;
+  font-weight: 700;
+  font-family: Lato;
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 50px;
