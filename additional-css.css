@@ -966,6 +966,10 @@ img.video_lightbox_anchor_image {
 	border-radius: 3px;
 }
 
+.blog-home .wp-pagenavi {
+	text-align: center;
+}
+
 @media only screen and (max-width: 1150px) {
 	.blog-home .site-inner {
 		margin-top: 0;
