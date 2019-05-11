@@ -28,23 +28,34 @@
 							<div class="blog-items">
 
 							<?php
+							// Get current page and append to custom query parameters array
+							$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+							// Define custom query parameters
 							$args = array(
 								'post_type' => array('post'),
+								'posts_per_page' => 12,
 								'post_status' => 'publish',
 								'order' => 'DESC',
 								'orderby' => 'ID',
+								'paged' => $paged,
 							);
-							$custom_query =  new WP_Query($args);
 
-							if ($custom_query->have_posts()):
+							// Pagination fix
+							$temp = $wp_query;
+							$wp_query= null;
+							// Instantiate custom query
+							$wp_query =  new WP_Query($args);
+
+							//Output custom query loop
+							if ($wp_query->have_posts()):
 								$i = 1;
-								while ($custom_query->have_posts()) : $custom_query->the_post();
-								if($i == 1 || $i == 7)
-									$class = 'col-md-4';
-								else if($i == 2 || $i == 6)
-									$class = 'col-md-4';
-								else
-									$class = 'col-md-4';
+								while ($wp_query->have_posts()) : $wp_query->the_post();
+									if($i == 1 || $i == 7)
+										$class = 'col-md-4';
+									else if($i == 2 || $i == 6)
+										$class = 'col-md-4';
+									else
+										$class = 'col-md-4';
 
 							?>
 								<?php if($i ==1 || $i == 4 || $i == 7 || $i == 10){
@@ -96,9 +107,6 @@
 											$row_start = false;
 										}
 										?>
-										<nav class="pagination">
-											<?php pagination_bar(); ?>
-										</nav>
 
 
 							<?php
@@ -107,10 +115,16 @@
 
 
 								endwhile;
-								if($row_start){
-											echo '</div>';
-										}
+								if($row_start) {
+									echo '</div>';
+								}
 							endif;
+
+							/* PageNavi at Bottom */
+							if (function_exists('wp_pagenavi')){wp_pagenavi();}
+							$wp_query = null;
+							$wp_query = $temp;
+							wp_reset_query();
 							?>
 
 
