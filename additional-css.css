@@ -1520,6 +1520,28 @@ img.video_lightbox_anchor_image {
 }
 
 /*========================
+			EPIC
+==========================*/
+.epic article.page {
+	max-width: 750px;
+	margin: 50px auto 0;
+}
+
+.epic h2 {
+	font-size: 36px;
+  font-weight: 700;
+  font-family: Lato;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.epic .heading {
+	text-align: center;
+}
+
+
+/*========================
 		Error 404
 ==========================*/
 .error-404 .entry-content {
