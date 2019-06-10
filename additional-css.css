@@ -135,7 +135,7 @@ body a:focus {
 }
 
 /*=============
-   Site Header
+	Site Header
 ===============*/
 .site-header {
 	background: #162454 !important;
@@ -272,7 +272,7 @@ body a:focus {
 }
 
 /*================================
-			 Home Page
+			Home Page
 ==================================*/
 
 /*========================
@@ -317,9 +317,23 @@ body a:focus {
 }
 
 /*========================
-	Widget 1
+	Widget 1 -- Video Promo Form
 ==========================*/
+.front-page-1 .optin_form_for_video {
+	width: 70%;
+	margin: 0 auto 15px;
+}
 
+.front-page-1 .optin_form_for_video .form-field-container {
+	margin-bottom: 25px;
+	display: flex;
+	align-content: space-between;
+}
+
+.front-page-1 .optin_form_for_video .form-field-container input {
+	width: 50%;
+	margin: 0 10px;
+}
 /*========================
 	Widget 2 - Programs && Hire Us Page
 ==========================*/
@@ -515,7 +529,7 @@ body a:focus {
 }
 
 /*========================
-	Widget 11 - Signup
+	Widget 11 - Weekly Reminder Form
 ==========================*/
 .front-page-11 .widget-heading {
 	margin-bottom: 40px;
@@ -525,6 +539,30 @@ body a:focus {
 .front-page-11 sup {
 	font-size: 25px;
 	top: -1em;
+}
+
+.front-page-11 .optin_form_for_weekly_reminder {
+	width: 70%;
+	margin: 0 auto 15px;
+}
+
+.front-page-11 .optin_form_for_weekly_reminder .form-field-container {
+	margin-bottom: 15px;
+	display: flex;
+	align-content: space-between;
+}
+
+.front-page-11 .optin_form_for_weekly_reminder .form-field-container input {
+	width: 50%;
+	margin: 0 10px;
+}
+
+.front-page-11 .optin_form_for_weekly_reminder .form-field-email {
+	margin-bottom: 25px;
+}
+
+.front-page-11 .optin_form_for_weekly_reminder .form-field-email input {
+	width: 97%;
 }
 
 /*========================
@@ -919,10 +957,12 @@ img.video_lightbox_anchor_image {
 	background-color: #162454;
 	color: #ffffff;
 	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
 	margin-bottom: 20px;
 	padding: 18px 25px;
 	border-radius: 5px;
-	background-image: -webkit-linear-gradient(
+	/* background-image: -webkit-linear-gradient(
 		rgba(0, 0, 0, 0),
 		rgba(0, 0, 0, 0.1) 50%,
 		rgba(0, 0, 0, 0.1)
@@ -936,7 +976,7 @@ img.video_lightbox_anchor_image {
 		rgba(0, 0, 0, 0),
 		rgba(0, 0, 0, 0.1) 50%,
 		rgba(0, 0, 0, 0.1)
-	);
+	); */
 }
 
 .products .flex-column .cta.cta-buy-now {
