@@ -3,7 +3,10 @@ Site Blue: #102854
 Action Button: #FEA500
 */
 
-.front-page-3 .solid-section ,.front-page-2 .solid-section{padding:0px}
+.front-page-3 .solid-section,
+.front-page-2 .solid-section {
+	padding: 0px;
+}
 .podcast-body .content-sidebar-wrap .entry-header .featured-image {
 	display: none;
 }
@@ -22,10 +25,16 @@ Action Button: #FEA500
 .sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
 	margin: 0px 61px;
 }
-.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline .vc_general {
+.sec2-inline-button
+	.vc_column-inner
+	.vc_btn3-container.vc_btn3-inline
+	.vc_general {
 	font-size: 18px;
 }
-.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline .vc_general:hover {
+.sec2-inline-button
+	.vc_column-inner
+	.vc_btn3-container.vc_btn3-inline
+	.vc_general:hover {
 	background: #333333 !important;
 }
 .post-grid-layout-custom .vc_column-inner {
@@ -47,7 +56,12 @@ Action Button: #FEA500
 .post-grid-layout-custom .vc_column-inner .wpb_wrapper .wpb_text_column {
 	margin-bottom: 0px;
 }
-.post-grid-layout-custom .vc_column-inner .wpb_wrapper .wpb_text_column .wpb_wrapper p {
+.post-grid-layout-custom
+	.vc_column-inner
+	.wpb_wrapper
+	.wpb_text_column
+	.wpb_wrapper
+	p {
 	line-height: 20px;
 	font-size: 16px;
 }
@@ -80,7 +94,7 @@ html {
 	margin-top: 0 !important;
 }
 
-@media only screen and ( max-width: 782px ) {
+@media only screen and (max-width: 782px) {
 	html {
 		margin-top: 0 !important;
 	}
@@ -90,7 +104,8 @@ html {
 	}
 }
 
-body p, body ul li {
+body p,
+body ul li {
 	font-weight: 400;
 }
 
@@ -103,23 +118,21 @@ body a:focus {
 }
 
 .contact-button:hover {
-	color: #FEA500;
+	color: #fea500;
 }
 
-.contact-button a, .wpforms-submit  {
-	border-color: #FEA500 !important;
+.contact-button a,
+.wpforms-submit {
+	border-color: #fea500 !important;
 	border-radius: 5px !important;
-	background-color: #FEA500 !important;
-	color: #FFF !important;
+	background-color: #fea500 !important;
+	color: #fff !important;
 	text-transform: uppercase !important;
-	font-family: 'Lato';
+	font-family: "Lato";
 	font-weight: 400;
 	font-size: 14px !important;
 	padding: 14px 20px;
 }
-
-
-
 
 /*=============
    Site Header
@@ -150,8 +163,8 @@ body a:focus {
 	color: white;
 }
 
-@media only screen  and (max-width: 1200px) {
-	.site-header .title-area{
+@media only screen and (max-width: 1200px) {
+	.site-header .title-area {
 		width: 260px;
 	}
 
@@ -177,17 +190,20 @@ body a:focus {
 }
 
 @media only screen and (max-width: 1023px) {
-	.genesis-nav-menu a, .site-header.light .genesis-nav-menu a {
+	.genesis-nav-menu a,
+	.site-header.light .genesis-nav-menu a {
 		padding: 30px 10px;
 	}
 
-	.site-header .title-area, .site-header.light .title-area {
+	.site-header .title-area,
+	.site-header.light .title-area {
 		padding: 15px 0 0;
 	}
 }
 
 @media only screen and (max-width: 960px) {
-	.site-header .title-area, .site-header.light .title-area {
+	.site-header .title-area,
+	.site-header.light .title-area {
 		padding: 0;
 	}
 }
@@ -229,18 +245,20 @@ body a:focus {
 	color: transparent;
 }
 
-.site-title a:hover, .site-title a:focus {
+.site-title a:hover,
+.site-title a:focus {
 	color: transparent;
 }
 
-.front-page .site-header .site-title a, .front-page .site-header .site-title a:hover {
+.front-page .site-header .site-title a,
+.front-page .site-header .site-title a:hover {
 	color: transparent;
 }
 
-.front-page .site-header.light .site-title a, .front-page .site-header light .site-title a:hover {
+.front-page .site-header.light .site-title a,
+.front-page .site-header light .site-title a:hover {
 	color: transparent;
 }
-
 
 .enews-widget input[type="submit"] {
 	background-color: #102854;
@@ -250,19 +268,20 @@ body a:focus {
 }
 .vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
 	background-color: #fea500 !important;
-	background-image:none !important;
+	background-image: none !important;
 }
 
 /*================================
 			 Home Page
 ==================================*/
 
-
 /*========================
 	Email
 ==========================*/
 
-.tpts-videopromo-name input, .tpts-videopromo-email input, .tpts-videopromo-phone input {
+.tpts-videopromo-name input,
+.tpts-videopromo-email input,
+.tpts-videopromo-phone input {
 	font-size: 1.5rem !important;
 	font-weight: 300 !important;
 	letter-spacing: 1.5px !important;
@@ -274,13 +293,16 @@ body a:focus {
 	float: left !important;
 }
 
-.tpts-videopromo-name, .tpts-videopromo-email, .tpts-videopromo-phone {
+.tpts-videopromo-name,
+.tpts-videopromo-email,
+.tpts-videopromo-phone {
 	width: 20% !important;
 	display: inline-block !important;
 	margin-right: 10px !important;
 }
 
-.tpts-videopromo h4, .tpts-videopromo p {
+.tpts-videopromo h4,
+.tpts-videopromo p {
 	color: #162454;
 }
 
@@ -289,7 +311,8 @@ body a:focus {
 	text-align: center;
 }
 
-.tpts-weekly-reminder .wpforms-field-row, .tpts-weekly-reminder .wpforms-field-medium {
+.tpts-weekly-reminder .wpforms-field-row,
+.tpts-weekly-reminder .wpforms-field-medium {
 	margin: 0 auto !important;
 }
 
@@ -297,15 +320,11 @@ body a:focus {
 	Widget 1
 ==========================*/
 
-
-
-
-
-
 /*========================
 	Widget 2 - Programs && Hire Us Page
 ==========================*/
-.front-page-2 .textwidget, .hire-me .textwidget {
+.front-page-2 .textwidget,
+.hire-me .textwidget {
 	display: flex;
 	justify-content: center;
 }
@@ -335,18 +354,21 @@ body a:focus {
 }
 
 @media only screen and (max-width: 1200px) {
-	.front-page-2 .textwidget, .hire-me .textwidget {
+	.front-page-2 .textwidget,
+	.hire-me .textwidget {
 		flex-wrap: wrap;
 	}
 
-	.front-page-2 .choose_prog, .hire-me .choose_prog {
+	.front-page-2 .choose_prog,
+	.hire-me .choose_prog {
 		width: 25%;
 		margin: 0 3% 50px;
 	}
 }
 
 @media only screen and (max-width: 800px) {
-	.front-page-2 .choose_prog, .hire-me .choose_prog {
+	.front-page-2 .choose_prog,
+	.hire-me .choose_prog {
 		width: 100%;
 	}
 }
@@ -355,7 +377,9 @@ body a:focus {
 	Widget 4 - Podcast
 ==========================*/
 
-.home .podcast_middle_row figure, .podcast_middle_row img, .podcast_middle_row a {
+.home .podcast_middle_row figure,
+.podcast_middle_row img,
+.podcast_middle_row a {
 	margin: 0 auto;
 	display: block;
 }
@@ -376,7 +400,6 @@ body a:focus {
 	margin-bottom: 15px;
 }
 
-
 /*========================
 	Widget 5 - Signup
 ==========================*/
@@ -396,7 +419,7 @@ body a:focus {
 	Widget 7 - Quotes
 ==========================*/
 .home .front-page-7 {
-	background: #F9F9F8;
+	background: #f9f9f8;
 }
 
 .home .front-page-7 .textwidget .italic {
@@ -436,7 +459,9 @@ body a:focus {
 	justify-content: center;
 }
 
-.home .front-page-10 .explore .explore-blog, .home .front-page-10 .explore .explore-videos, .home .front-page-10 .explore .explore-podcast {
+.home .front-page-10 .explore .explore-blog,
+.home .front-page-10 .explore .explore-videos,
+.home .front-page-10 .explore .explore-podcast {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -448,7 +473,9 @@ body a:focus {
 	transition: transform 0.2s;
 }
 
-.home .front-page-10 .explore .explore-blog:hover, .home .front-page-10 .explore .explore-videos:hover, .home .front-page-10 .explore .explore-podcast:hover {
+.home .front-page-10 .explore .explore-blog:hover,
+.home .front-page-10 .explore .explore-videos:hover,
+.home .front-page-10 .explore .explore-podcast:hover {
 	transform: scale(1.06);
 }
 
@@ -478,7 +505,7 @@ body a:focus {
 
 .home .front-page-10 .explore .full-link-block:hover .button.button-blue-clear {
 	background: #102854;
-	color: #FFF;
+	color: #fff;
 }
 
 @media only screen and (max-width: 800px) {
@@ -486,8 +513,6 @@ body a:focus {
 		flex-wrap: wrap;
 	}
 }
-
-
 
 /*========================
 	Widget 11 - Signup
@@ -505,13 +530,15 @@ body a:focus {
 /*========================
 			Footer
 ==========================*/
-.footer-widgets-1, .footer-widgets-2 {
+.footer-widgets-1,
+.footer-widgets-2 {
 	margin: 0;
 	width: 50%;
 }
 
 @media only screen and (max-width: 650px) {
-	.footer-widgets-1, .footer-widgets-2 {
+	.footer-widgets-1,
+	.footer-widgets-2 {
 		margin: 0 auto;
 		padding: 15px 0;
 		width: 100%;
@@ -540,7 +567,10 @@ body a:focus {
   Extra Small Mobile
 ======================*/
 @media only screen and (max-width: 368px) {
-	.page-id-622 .sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
+	.page-id-622
+		.sec2-inline-button
+		.vc_column-inner
+		.vc_btn3-container.vc_btn3-inline {
 		margin: 0 7px;
 	}
 	.page-id-622 .post-grid-layout-custom .vc_column-inner {
@@ -564,17 +594,17 @@ body a:focus {
 /*=============
 	 Mobile
 ===============*/
- @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	div#about-tim-sec1 {
 		background-size: 100%;
 		background-position: center top;
 		min-height: 200px;
 	}
 	.page-id-622 .post-grid-layout-custom .vc_column-inner {
-	min-height: 190px;
+		min-height: 190px;
 	}
 	.sec2-inline-button .vc_column-inner .vc_btn3-container.vc_btn3-inline {
-	margin: 0 7px;
+		margin: 0 7px;
 	}
 	.vc_row .wpb_column .vc_column-inner {
 		background-position: center top;
@@ -629,16 +659,16 @@ body a:focus {
 		font-weight: 700;
 	}
 	.single-post .site-inner {
-		margin-top:80px;
-		max-width:100%;
+		margin-top: 80px;
+		max-width: 100%;
 	}
 	.single-post .site-inner .content-sidebar-wrap .entry-content {
-		max-width:1200px;
-		margin:0 auto;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 	.single-post .site-inner .content-sidebar-wrap .entry-comments h3 {
-		max-width:1200px;
-		margin:0 auto;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 }
 
@@ -669,10 +699,9 @@ body a:focus {
 	}
 }
 
-
 @media only screen and (min-width: 1201px) {
-	.nav-primary .genesis-nav-menu{
-		float:right
+	.nav-primary .genesis-nav-menu {
+		float: right;
 	}
 }
 
@@ -680,14 +709,14 @@ body a:focus {
 	width: 100%;
 }
 .single-post .site-inner .content-sidebar-wrap .entry-header .entry-title {
-	display:block;
-	max-width:1200px;
-	margin:0 auto;
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
 	font-weight: 700;
 }
 .single-post .site-inner .content-sidebar-wrap .entry-header .entry-meta {
-	max-width:1200px;
-	margin:0 auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 .single-post .site-inner .content-sidebar-wrap .entry-footer {
 	max-width: 1200px;
@@ -702,9 +731,9 @@ body a:focus {
 .site-footer {
 	background-color: #162454;
 }
-.home #text-10 .rightrow{
+.home #text-10 .rightrow {
 	padding: 57px 30px 40px !important;
-	}
+}
 img.video_lightbox_anchor_image {
 	width: 100%;
 }
@@ -724,7 +753,7 @@ img.video_lightbox_anchor_image {
 	margin-bottom: 0px;
 }
 .custom-text1176 {
-	font-weight:bold;
+	font-weight: bold;
 }
 
 .home .vc_custom_1531422579249 {
@@ -753,13 +782,13 @@ img.video_lightbox_anchor_image {
 	display: block;
 	font-size: 20px;
 	font-weight: bold;
-
 }
 
-
-.home .feature-primary .wpb_column {color:#fff}
+.home .feature-primary .wpb_column {
+	color: #fff;
+}
 .home .feature-primary .wpb_column:hover {
--webkit-transform: scale(1.06);
+	-webkit-transform: scale(1.06);
 	-ms-transform: scale(1.06);
 	-o-transform: scale(1.06);
 	transform: scale(1.06);
@@ -780,7 +809,7 @@ img.video_lightbox_anchor_image {
 	justify-content: center;
 }
 
-.about-tim .about-tim-quote .vc_column-inner{
+.about-tim .about-tim-quote .vc_column-inner {
 	background-position: center top !important;
 	color: #162454;
 }
@@ -807,7 +836,7 @@ img.video_lightbox_anchor_image {
 }
 
 .blog-link {
-	background: #FEA500;
+	background: #fea500;
 	border-radius: 4px;
 	color: white;
 	padding: 10px;
@@ -835,7 +864,6 @@ img.video_lightbox_anchor_image {
 	border: 3px solid #3f3f3f;
 	border-top: 10px solid #3f3f3f;
 
-
 	margin: 0 25px 25px;
 	padding-top: 35px;
 	box-sizing: border-box;
@@ -845,7 +873,6 @@ img.video_lightbox_anchor_image {
 
 	max-width: 350px;
 }
-
 
 .products .flex-column .logo {
 	width: 100%;
@@ -895,9 +922,21 @@ img.video_lightbox_anchor_image {
 	margin-bottom: 20px;
 	padding: 18px 25px;
 	border-radius: 5px;
-	background-image: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
-	background-image: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
+	background-image: -webkit-linear-gradient(
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.1)
+	);
+	background-image: -o-linear-gradient(
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.1)
+	);
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.1) 50%,
+		rgba(0, 0, 0, 0.1)
+	);
 }
 
 .products .flex-column .cta.cta-buy-now {
@@ -906,7 +945,7 @@ img.video_lightbox_anchor_image {
 
 @media only screen and (max-width: 1200px) {
 	.products .flex-column {
-	   margin: 0 10px;
+		margin: 0 10px;
 	}
 }
 
@@ -916,11 +955,10 @@ img.video_lightbox_anchor_image {
 	}
 
 	.products .flex-column {
-	   max-width: none;
-	   margin: 25px;
+		max-width: none;
+		margin: 25px;
 	}
 }
-
 
 /*========================
 	 Blog Page
@@ -1016,9 +1054,9 @@ img.video_lightbox_anchor_image {
 }
 
 .single-podcast_list article h1 {
-		font-size: 35px;
-    text-transform: capitalize;
-    margin-top: 50px;
+	font-size: 35px;
+	text-transform: capitalize;
+	margin-top: 50px;
 }
 
 .single-podcast_list article h4 {
@@ -1030,7 +1068,7 @@ img.video_lightbox_anchor_image {
 	color: #102854;
 }
 
-		/*========================
+/*========================
 			Podcasts Articles -- shownotes
 		==========================*/
 
@@ -1062,7 +1100,7 @@ img.video_lightbox_anchor_image {
 	padding: 25px 0;
 }
 
-		/*========================
+/*========================
 			Podcasts Articles -- Twitter share
 		==========================*/
 
@@ -1074,7 +1112,7 @@ img.video_lightbox_anchor_image {
 }
 
 .single-podcast_list .twitter-share-tweet h3 {
-	background: #59ADEB;
+	background: #59adeb;
 	color: white;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -1105,7 +1143,7 @@ img.video_lightbox_anchor_image {
 }
 
 .single-podcast_list .twitter-share-tweet .tweet {
-	background: #59ADEB;
+	background: #59adeb;
 	color: white;
 	padding: 10px 15px;
 	border-radius: 5px;
@@ -1130,11 +1168,11 @@ img.video_lightbox_anchor_image {
 	transition: all 0.3s ease-in-out;
 }
 
-		/*========================
+/*========================
 			Podcasts Articles -- Tuning In
 		==========================*/
 
-.single-podcast_list .tuning-in{
+.single-podcast_list .tuning-in {
 	margin-top: 50px;
 }
 
@@ -1145,12 +1183,9 @@ img.video_lightbox_anchor_image {
 	margin-bottom: 15px;
 }
 
-
-
 /*========================
 	 Podcasts Home
 ==========================*/
-
 
 .podcast-home .podcast-hero {
 	background-image: url(/wp-content/uploads/2018/12/podcast-hero.jpg);
@@ -1180,11 +1215,11 @@ img.video_lightbox_anchor_image {
 }
 
 .podcast-home .podcast-post .podcast-post-title:hover {
-	color:#FEA500
+	color: #fea500;
 }
 
 .podcast-home .view-post {
-	background: #FEA500;
+	background: #fea500;
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 3px;
@@ -1206,8 +1241,8 @@ img.video_lightbox_anchor_image {
 
 .podcast-home .subscribe {
 	font-size: 36px;
-  font-weight: 700;
-  font-family: Lato;
+	font-weight: 700;
+	font-family: Lato;
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 50px;
@@ -1232,7 +1267,8 @@ img.video_lightbox_anchor_image {
 	font-size: 18px;
 }
 
-.podcast-home .podcast-link.google img, .podcast-home .podcast-link.breaker img {
+.podcast-home .podcast-link.google img,
+.podcast-home .podcast-link.breaker img {
 	border: 1px solid #777;
 	border-radius: 4px;
 }
@@ -1260,8 +1296,6 @@ img.video_lightbox_anchor_image {
 	margin-bottom: 75px;
 }
 
-
-
 /*========================
 	 Videos Home
 ==========================*/
@@ -1288,7 +1322,6 @@ img.video_lightbox_anchor_image {
 	margin: 0 auto;
 }
 
-
 /*========================
 	 Business Development
 ==========================*/
@@ -1313,23 +1346,29 @@ img.video_lightbox_anchor_image {
 	display: inline-block;
 }
 
-.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a {
+.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab > a {
 	border-color: #162454;
 	background-color: #162454;
 }
 
-.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a:focus, .business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab>a:hover {
-	background-color: #0636A4;
+.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab > a:focus,
+.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab > a:hover {
+	background-color: #0636a4;
 }
 
-.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+.business-dev
+	.vc_tta-color-blue.vc_tta-style-classic
+	.vc_tta-tab.vc_active
+	> a {
 	background-color: #f8f8f8;
 }
 
-.business-dev .vc_tta-color-blue.vc_tta-style-classic .vc_tta-tab.vc_active>a:hover {
+.business-dev
+	.vc_tta-color-blue.vc_tta-style-classic
+	.vc_tta-tab.vc_active
+	> a:hover {
 	background-color: #f8f8f8;
 }
-
 
 /*========================
 	 Coaching
@@ -1379,25 +1418,25 @@ img.video_lightbox_anchor_image {
 }
 
 .coaching .tiers .platinum h4 {
-	background: #C5C5C5;
+	background: #c5c5c5;
 }
 
 .coaching .tiers .gold h4 {
-	background: #D0AD46;
+	background: #d0ad46;
 }
 
 .coaching .tiers .silver h4 {
-	background: #B1B8AF;
+	background: #b1b8af;
 }
 
-.coaching .tiers .platinum, .coaching .tiers .silver, .coaching .tiers .gold {
+.coaching .tiers .platinum,
+.coaching .tiers .silver,
+.coaching .tiers .gold {
 	border-radius: 5px;
 	margin: 0 15px;
 	padding: 5px 20px;
 	border: 3px solid #162454;
 }
-
-
 
 /*========================
 		   Sales
@@ -1495,7 +1534,6 @@ img.video_lightbox_anchor_image {
 .terms .content h2 {
 	font-weight: bold;
 	margin-top: 50px;
-
 }
 
 .terms .content h3 {
@@ -1529,8 +1567,8 @@ img.video_lightbox_anchor_image {
 
 .epic h2 {
 	font-size: 36px;
-  font-weight: 700;
-  font-family: Lato;
+	font-weight: 700;
+	font-family: Lato;
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 50px;
@@ -1540,6 +1578,10 @@ img.video_lightbox_anchor_image {
 	text-align: center;
 }
 
+.epic .contact-button {
+	margin: 45px auto 0;
+	display: block;
+}
 
 /*========================
 		Error 404
@@ -1566,12 +1608,12 @@ img.video_lightbox_anchor_image {
 }
 
 .error-404 .cta {
-	border-color: #FEA500 !important;
+	border-color: #fea500 !important;
 	border-radius: 5px !important;
-	background-color: #FEA500 !important;
-	color: #FFF !important;
+	background-color: #fea500 !important;
+	color: #fff !important;
 	text-transform: uppercase !important;
-	font-family: 'Lato';
+	font-family: "Lato";
 	font-weight: 400;
 	font-size: 14px !important;
 	padding: 14px 20px;
@@ -1594,7 +1636,7 @@ img.video_lightbox_anchor_image {
 	margin-top: 77px;
 }
 .vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
-	color: #FFF;
+	color: #fff;
 	width: 48%;
 	font-size: 18px;
 	padding: 10px 16px;
@@ -1610,7 +1652,7 @@ img.video_lightbox_anchor_image {
 .box-heading {
 	font-size: 16px;
 }
-.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern:hover{
-	width:45%;
-	background-color:#d61411;
+.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern:hover {
+	width: 45%;
+	background-color: #d61411;
 }
