@@ -163,6 +163,11 @@ body a:focus {
 	color: white;
 }
 
+.genesis-nav-menu a,
+.site-header.light .genesis-nav-menu a {
+	padding: 30px 5px;
+}
+
 @media only screen and (max-width: 1200px) {
 	.site-header .title-area {
 		width: 260px;
@@ -192,7 +197,7 @@ body a:focus {
 @media only screen and (max-width: 1023px) {
 	.genesis-nav-menu a,
 	.site-header.light .genesis-nav-menu a {
-		padding: 30px 10px;
+		padding: 30px 7px;
 	}
 
 	.site-header .title-area,
