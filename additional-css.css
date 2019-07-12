@@ -1028,7 +1028,7 @@ img.video_lightbox_anchor_image {
 
 .blog-home .link-more-grey {
 	color: #fff;
-	background-color: #102854;
+	background-color: #fea500;
 	padding: 5px;
 	border-radius: 3px;
 }
@@ -1038,13 +1038,18 @@ img.video_lightbox_anchor_image {
 	margin-bottom: 60px;
 }
 
+.blog-home .post .post-item-image {
+	border: 1px solid #102854;
+	border-radius: 3px;
+}
+
 .blog-home .blog-items {
 	padding-bottom: 65px;
 }
 
 .link-more-grey {
 	color: #fff;
-	background-color: #102854;
+	background-color: #fea500;
 	padding: 5px;
 	border-radius: 3px;
 }
@@ -1060,12 +1065,19 @@ img.video_lightbox_anchor_image {
 }
 
 /*========================
-	 Blog Articles
+	Blog Articles
 ==========================*/
 .blog-page .site-inner {
 	max-width: 1200px;
 	margin: 25px auto 0;
 	padding: 0 25px;
+}
+
+.blog-page .link-more-grey {
+	color: #fff;
+	background-color: #fea500;
+	padding: 5px;
+	border-radius: 3px;
 }
 
 .blog-page .site-inner .article {
@@ -1081,6 +1093,24 @@ img.video_lightbox_anchor_image {
 
 .blog-page .article .article-group {
 	display: none;
+}
+
+.blog-page .wp-video {
+	margin: 0 auto;
+}
+
+.blog-page .article .article-author {
+	font-weight: bold;
+	color: #000;
+}
+
+.blog-page .article .article-author strong {
+	font-weight: bold;
+}
+
+.blog-page .post .post-item-image {
+	border: 1px solid #102854;
+	border-radius: 3px;
 }
 
 /*========================
@@ -1111,6 +1141,11 @@ img.video_lightbox_anchor_image {
 .single-podcast_list .post-title {
 	font-size: 36px;
 	color: #102854;
+}
+
+.single-podcast_list .posted-by {
+	font-weight: bold;
+	font-size: 14px;
 }
 
 /*========================
