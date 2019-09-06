@@ -220,6 +220,13 @@ body a:focus {
 /* over-rides */
 .admin-bar .site-header {
 	top: 0 !important;
+	max-height: 80px;
+}
+
+@media only screen and (max-width: 1150px) {
+	.admin-bar .site-header {
+		max-height: none;
+	}
 }
 
 .front-page .site-header {
@@ -695,6 +702,12 @@ body a:focus {
 	.blog-page .site-inner {
 		margin-top: 80px;
 	}
+	.terms .site-inner {
+		margin-top: 80px;
+	}
+	.whitelist .site-inner {
+		margin-top: 80px;
+	}
 	.page-id-58 #about-tim-sec1 .vc_column-inner {
 		min-height: 400px;
 	}
@@ -738,6 +751,12 @@ body a:focus {
 		margin-top: 0;
 	}
 	.blog-page .site-inner {
+		margin-top: 0;
+	}
+	.terms .site-inner {
+		margin-top: 0;
+	}
+	.whitelist .site-inner {
 		margin-top: 0;
 	}
 }
@@ -1006,7 +1025,7 @@ img.video_lightbox_anchor_image {
 }
 
 /*========================
-	 Blog Page
+	Blog Page
 ==========================*/
 .blog-home .hero {
 	background-image: url(/wp-content/uploads/2019/01/blog-hero.jpg);
@@ -1020,10 +1039,6 @@ img.video_lightbox_anchor_image {
 
 .blog-home .front-page-10 {
 	padding-top: 0;
-}
-
-.blog-home .site-inner {
-	margin-top: 72px;
 }
 
 .blog-home .link-more-grey {
@@ -1056,12 +1071,6 @@ img.video_lightbox_anchor_image {
 
 .blog-home .wp-pagenavi {
 	text-align: center;
-}
-
-@media only screen and (max-width: 1150px) {
-	.blog-home .site-inner {
-		margin-top: 0;
-	}
 }
 
 /*========================
@@ -1591,7 +1600,11 @@ img.video_lightbox_anchor_image {
 /*========================
 			Terms
 ==========================*/
-.terms {
+.terms  .main {
+	font-family: Arial;
+}
+
+.terms .main h1, .terms .main h2, .terms .main h3 {
 	font-family: Arial;
 }
 
@@ -1600,42 +1613,72 @@ img.video_lightbox_anchor_image {
 	margin: 0 auto;
 }
 
-.terms .content h1,
-.terms .content h2,
-.terms .content h3 {
+.terms .content .main h1,
+.terms .content .main h2,
+.terms .content .main h3 {
 	text-align: center;
 }
 
-.terms .content h1 {
+.terms .content .main h1 {
 	font-weight: 700;
 	margin-top: 50px;
 }
 
-.terms .content h2 {
+.terms .content .main h2 {
 	font-weight: bold;
 	margin-top: 50px;
 }
 
-.terms .content h3 {
+.terms .content .main h3 {
 	margin-top: 40px;
 	font-weight: 400;
 	font-size: 22px;
 }
 
-.terms p,
-.terms li {
+.terms  .main p,
+.terms  .main li {
 	font-weight: 300;
 	font-size: 18px;
 	margin-bottom: 15px;
 }
 
-.terms .italic {
+.terms  .main .italic {
 	font-style: italic;
 }
 
-.terms .bold {
+.terms  .main .bold {
 	font-weight: bold;
 }
+
+/*========================
+			Whitelist
+==========================*/
+.whitelist .main {
+	padding-top: 50px;
+}
+
+.whitelist .main h1 {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 35px;
+}
+
+.whitelist .main h3 {
+	font-weight: 500;
+}
+
+.whitelist .main ol {
+	padding-left: 20px;
+}
+
+.whitelist .main ol li {
+	padding-bottom: 10px;
+}
+
+.whitelist .main .italic {
+	font-style: italic;
+}
+
 
 /*========================
 			EPIC
