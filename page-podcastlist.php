@@ -11,9 +11,9 @@
         <?php endwhile; ?>
 
         <div class="row">
-            <div class="podcast-list">    
+            <div class="podcast-list">
                 <section class="podcast-subscribe">
-                    <h1 class="subscribe">Subscribe to <i>The Person To See</i> Podcast<br>with your favorite app</h1>
+                    <h1 class="subscribe">Subscribe to <i>The Person To See</i> Show<br>with your favorite app</h1>
                     <ul class="podcast-link-list">
                         <li class="podcast-link apple">
                             <a href="https://itunes.apple.com/us/podcast/the-person-to-see/id1448295597" target="_blank" rel="noopener noreferrer">
@@ -57,7 +57,7 @@
         </div>
 
         <div class="blog-items">
-            <?php 
+            <?php
             $args = array(
                 'post_type' => array('podcast_list'),
                 'post_status' => 'publish',
@@ -65,24 +65,24 @@
                 'orderby' => 'ID',
             );
             $custom_query =  new WP_Query($args);
-            
+
             if ($custom_query->have_posts()):
                 $i = 1;
                 while ($custom_query->have_posts()) : $custom_query->the_post();
                 if($i == 1 || $i == 7)
                     $class = 'col-md-4';
-                else if($i == 2 || $i == 6)	
+                else if($i == 2 || $i == 6)
                     $class = 'col-md-4';
                 else
                     $class = 'col-md-4';
-                    
+
                 ?>
                 <?php if($i ==1 || $i == 4 || $i == 7 || $i == 10){
                 $row_start = true;
                 echo '<div class="row">';
                 }
                 ?>
-                                        
+
                         <div class="col-sm-6 blog-item blog-clear stories-item <?php echo $class?>">
                             <div class="post">
                                 <a style="background-image:url('<?php echo get_the_post_thumbnail_url(get_the_ID(),array(1280,448)) ?>');" class="post-item-image" href="<?php echo get_the_permalink(); ?>"></a>
@@ -103,34 +103,34 @@
                             echo '</div>';
                             $row_start = false;
                         }
-                        ?> 											
-                            
-                    
+                        ?>
+
+
             <?php
-                    $i++;							
+                    $i++;
                 endwhile;
                 if($row_start){
                             echo '</div>';
                         }
             endif;
-            
+
             ?>
         </div>
 
         <div class="row">
-            <div class="podcast-list">    
+            <div class="podcast-list">
                 <section>
-                    <h1 class="subscribe"><i>The Person to See</i> Podcast helps you mantain a competitive edge.</h1>
+                    <h1 class="subscribe"><i>The Person to See</i> Show helps you mantain a competitive edge.</h1>
                     <p>At the end of the day what do you think we are all after? Money? Fame? Happiness? For me it is freedom. The freedom to do what I want, when I want with whom I want.</p>
                     <p>The only way to have this freedom is to build relationships with people who can pull us up. As my next-door neighbor, Dick Mercer once told me, “Tim, nobody is a success unless an awful lot of people want you to be.” And I am here to tell you that you will never attract the kind of people who can help you catapult you to where you want to be without a great personal brand.</p>
                     <p>For the past fifteen years I have dedicated myself to researching and uncovering the secrets and strategies for building a great personal brand.</p>
                     <p>In an economy where it is becoming increasingly difficult to stand out from the competition, personal branding continues to be the only enduring differentiator. Being talented -even very talented - is not enough to gain, let alone maintain, a competitive advantage.</p>
                     <p>Let me put this in perspective. I live in Los Angeles and I practiced law for many years. I can tell you that there are literally thousands of lawyers in California who are extremely talented who have zero book of business. The reason is because they refuse to get out from behind their desks and build a great personal brand.</p>
-                    <p>There are two central themes at the core of building a great personal branding. First, personal branding is not an option; everybody has a personal brand and that brand is either positive, negative or neutral and, second, everything we do either adds to or takes away from our personal brand credibility.</p> 
-                    <p>It is our hope that by listening to <i>The Person To See</i> Podcast you will gain the insight and strategies you need to position yourself as <i>The Person To See</i> with your target audience.</p>
+										<p>There are two central themes at the core of building a great personal brand. First, personal branding is not an option; everybody has a personal brand and that brand is either positive, negative or neutral and, second, everything we do either adds to or takes away from our personal brand credibility.</p>
+										<p>It is our hope that by listening to <i>The Person To See</i> Podcast you will gain the insight and strategies you need to position yourself as <i>The Person To See</i> with your target audience.</p>
                 </section>
                 <section class="podcast-subscribe">
-                    <h3 class="subscribe">Subscribe to <i>The Person To See</i> Podcast<br>with your favorite app</h3>
+                    <h3 class="subscribe">Subscribe to <i>The Person To See</i> Show<br>with your favorite app</h3>
                     <ul class="podcast-link-list">
                         <li class="podcast-link apple">
                             <a href="https://itunes.apple.com/us/podcast/the-person-to-see/id1448295597" target="_blank" rel="noopener noreferrer">
@@ -195,7 +195,7 @@
 // 						};
 // 					</style>`;
 // 		$head.append(css);
-		
+
 		function fullWidthRow() {
             var $elements = $('[data-vc-full-width="true"]');
             $.each($elements, function(key, item) {
